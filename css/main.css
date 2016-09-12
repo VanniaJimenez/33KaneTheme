@@ -145,5 +145,33 @@ hr {
 .verde {
 	background-color: #035B3E;
 	width: 80%;
-	height: 20em;
+	height: 25em;
+}
+
+.orange {
+	color: orange;
+}
+
+.lefi {
+	margin-left: 35%;
+}
+
+.mt-10 {
+	margin-top: 10%;
+}
+
+.ora {
+	background-color: orange;
+	width: 30%;
+	height: 20%;
+	margin-left: 25%;
+	margin-bottom: 5%;
+}
+
+.bot1 {
+	border-style: none;
+	background-color: black;
+	margin-left:45%;
+	padding: 2%;
+	margin-bottom: 10%;
 }
