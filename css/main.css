@@ -196,7 +196,7 @@ hr {
 }
 
 .centrado {
-	margin-left: 20%;
+	margin-left: 10%;
 	margin-bottom: 1%;
 }
 
@@ -207,4 +207,29 @@ input {
 
 .in {
 	height: 200px;
+}
+
+.fondoh {
+	background-image: url(../img/h.jpg);
+	background-size:cover;
+	background-repeat: repeat;
+}
+
+.peq {
+	width: 10%;
+	height: 35%;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+
+}
+
+.boti {
+	margin-left: 30%;
+	background-color: black;
+	color: white;
+	padding: 1%;
+	border-style: none;
+	margin-top: 5%;
+	width: 30%;
 }
