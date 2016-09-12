@@ -5,8 +5,8 @@
 	padding: 10%;
 	margin: 10%;
 	margin-left: 45%;
-	width: 100%;
-	height: 100%;
+	width: 95%;
+	height: 95%;
 }
 
 .pad {
@@ -232,4 +232,69 @@ input {
 	border-style: none;
 	margin-top: 5%;
 	width: 30%;
+}
+
+@media (max-width:768px) {
+	.logo {
+		padding: 0%;
+		margin: 0%;
+		width: 20%;
+		height: 20%
+	}
+
+	.black {
+		border: solid 2px black;
+	}
+	.fondo1 {
+		margin-top: -6%;
+	}
+	.color1 {
+		margin: 0%;
+		width: 80%;
+		padding-bottom: 50%;
+		margin-left: 10%;
+	}
+
+	.color2 {
+		margin: 0%;
+		margin-left: 10%;
+	}
+	.color3 {
+		margin: 0%;
+		margin-left: 10%;
+	}
+	.color5 {
+		margin: 0%;
+		width: 80%;
+		padding-bottom: 50%;
+		margin-left: 10%;
+	}
+	.color4 {
+		margin: 0%;
+		margin-left: 10%;
+	}
+	.color6 {
+		margin: 0%;
+		width: 80%;
+		padding-bottom: 50%;
+		margin-left: 10%;
+	}
+	.color7 {
+		margin: 0%;
+		margin-left: 10%;
+	}
+	.color8 {
+		margin: 0%;
+		margin-left: 10%;
+	}
+	.color9 {
+		margin: 0%;
+		margin-left: 10%;
+	}
+	.color10{
+		margin: 0%;
+		margin-left: 10%;
+		width: 80%;
+		padding-bottom: 50%;
+	}
 }
