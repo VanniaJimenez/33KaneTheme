@@ -175,3 +175,22 @@ hr {
 	padding: 2%;
 	margin-bottom: 10%;
 }
+
+.dv {
+	border: solid 1px green;
+	width: 100%;
+	height: 30em;
+	margin-top:40%;
+	margin-bottom: 30%;
+}
+
+.mln {
+	margin-left: -5%;
+}
+.dn {
+	border: solid 1px orange;
+	width: 100%;
+	height: 30em;
+	margin-top: 25%;
+	margin-bottom: 30%;
+}
