@@ -13,12 +13,23 @@
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
 
   </head>
 
     <body>
         <header> <!--div class="row"> <div class="col-lg-12"-->
-            <nav class="navbar navbar-default"> <!--menudespegable-->
+            <nav class="navbar fondoverde"> <!--menudespegable-->
                 <div class="container-fluid"> <!--containerheder-->
                     <div class=navbar-header>
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -30,7 +41,7 @@
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav navbar-right pad"> <!--elementosdelmenu-->
-                            <li><a href="#">About</a></li>
+                            <li><a href="#" >About</a></li>
                             <li><a href="#">Service</a></li>
                             <li><a href="#">Team</a></li>
                             <li><a href="#">Price</a></li>
@@ -44,9 +55,11 @@
         </header>
         <section><!--primerasection--> <!--intro-->
             <div class="row"> 
-                <div class="col-lg-12"> <!--fondo1-->
-                    <p class="titulares blanco">BEAUTIFUL COLOR PALETTES FOR YOUR NEXT WEB PROJECT</p>
-                    <p>Choosing the right color scheme is essential to your website's success. Your layout and other design -including font-should be devoleped in concert with your color scheme to ensure readability, cohesiveness and beauty in the final product.</p>
+                <div class="col-lg-12"> <!--fondo1-->  
+                    <div class="fondo1">         
+                        <p class="titulares blanco">BEAUTIFUL COLOR PALETTES FOR YOUR NEXT WEB PROJECT</p>
+                        <p>Choosing the right color scheme is essential to your website's success. Your layout and other design -including font-should be devoleped in concert with your color scheme to ensure readability, cohesiveness and beauty in the final product.</p>
+                    </div>
                 </div>
             </div>   
         </section>
@@ -209,7 +222,7 @@
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                         cillum dolore eu fugiat nulla pariatur.</p>
-                        <p class="mg-lf">
+                        <p class="mg-lf¿">
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -417,10 +430,18 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-12">
-                            <input type="text" name="Name*" value="Name*">
-                            <input type="text" name="email*" value="email*">
-                            <input type="text" name="phone" value="phone">
-                            <input type="text" name="Message*" value="Message*">
+                            <div>
+                                <input type="text" name="Name*" value="Name*">
+                            </div>
+                            <div>
+                                <input type="text" name="email*" value="email*">
+                            </div>
+                            <div>
+                                <input type="text" name="phone" value="phone">
+                            </div>
+                            <div>
+                                <input type="text" name="Message*" value="Message*">
+                            </div>   
                         </div>
                     </div>
                     <div class="row">

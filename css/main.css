@@ -5,12 +5,22 @@
 	padding: 10%;
 	margin: 10%;
 	margin-left: 45%;
+	width: 100%;
+	height: 100%;
 }
 
 .pad {
 	padding-top: 2%;
 }
-
+.fondoverde {
+	background-color: #33994B;
+}
+.fondo1 {
+	background-image: url(../img/carousel-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -2%;
+}
 /*Section1*/
 
 .cuadro {
