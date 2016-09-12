@@ -116,8 +116,34 @@ hr {
 .agen {
 	width: 70%;
 	height: 70%;
+
+}
+
+.espacio {
+	margin-bottom: 10%;
+	margin-left: 15%;
+	margin-top: 10%;
 }
 
 .mg-lf {
-	margin-left: 10%;
+	margin-left: 15%;
+}
+
+/*tercerasection*/
+.fondoazul {
+	background-color: #0F2446;
+}
+
+.margintop {
+	margin-top:5%;
+}
+
+.lg {
+	color: lightgray;
+}
+
+.verde {
+	background-color: #035B3E;
+	width: 80%;
+	height: 20em;
 }
